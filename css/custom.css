@@ -1,0 +1,429 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #015697;
+}
+
+a {
+  color: #123550 !important;
+}
+
+a:hover {
+  color: #235780 !important;
+}
+
+a:visited {
+  color: #054f88 !important;
+}
+
+.btn-primary {
+  background-color: #0071bc;
+  border-color: #0071bc;
+  margin-top: 15px;
+}
+
+.header {
+  background-image: url('../images/hero1.jpg');
+  min-height: 600px;
+  background-size:100% auto;
+  background-repeat: no-repeat;
+}
+
+.navLogo {
+  /* background-image: url('../images/havsbruksLogo.png'); */
+  width:350px;
+  height:32px;
+  border:0;
+}
+
+.footerLogo {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+ .navLogoMobile {
+   display: none;
+ }
+
+
+.anteo-btn {
+  background-color: #0071bc;
+  border-color: #0071bc;
+  color: #ffffff!important;
+}
+
+.anteo-btn:visited {
+  color: #ffffff!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #06203b;
+}
+
+.btn-multiuse {                      
+  color: white !important;
+  background-color: #0071bc;
+  border-color: #0071bc;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ 
+.btn-multiuse a:visited {   
+  color: white !important;
+}
+
+/* <style>a:visited{color:white !important}</style> */
+
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.footerStyles {
+   background-color: #06203b;
+   font-size: 15px;
+}
+
+.navBackground {
+  background-color: #ffffff;
+}
+
+.header {
+  position:relative;
+}
+
+.navButtons {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  /* height: auto; */
+  height: 61px;
+  width: 120px;
+}
+
+.headerNavButts {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+  position: relative;
+  top: 350px;
+}
+.verthoricenter {
+  text-align: center;
+  margin: auto;
+}
+.alignleft {
+  text-align: left;
+}
+.contentrow {
+  margin: 40px 0px;
+}
+
+
+
+@media only screen and (min-width: 320px) {
+  .headerNavButts {
+    top: 400px;
+  }
+
+  .header {
+    background-image: url('../images/aquanetMobileBG.jpg');
+    min-height: 812px;
+  }  
+  .h2, h2 {
+    font-size: 1.5rem;
+  } 
+
+  .rowAbout {
+    margin-top: 50px;
+  }
+
+  .navLogo {
+    display: none;
+  }
+  
+   .navLogoMobile {
+     width:88px;
+     height:32px;
+     border:0;
+   }
+   .contentheading {
+    margin: 20px 0px;
+    font-size: 1.5em;
+  }
+
+}
+
+@media only screen and (min-width: 360px) {
+  .navLogo {
+    margin-left: -5px;
+    width:275px;
+    height:25px;
+    border:0;
+  }
+  .navbar-toggler {
+  position: absolute;
+  left: 295px;
+ }
+
+ .navLogoMobil {
+  width:280px;
+  height:22px;
+    
+ }
+
+}
+
+@media only screen and (min-width: 375px) {
+  .navLogo {
+    margin-left: 5px;
+  }
+  
+}
+
+@media only screen and (min-width: 411px) {
+  .navbar-toggler {
+    position: absolute;
+    left: 340px;
+   }  
+}
+
+
+@media only screen and (min-width: 414px) {
+  .headerNavButts {
+    top: 400px;
+  }
+  .navButton {
+    height: 40px;
+    width: 80px;
+  }
+  .header {
+    background-image: url('../images/aquanetMobileBG.jpg');
+    min-height: 812px;
+  }
+  .navLogo {
+    margin-left: 15px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    left: 340px;
+   }
+}
+
+@media only screen and (min-width: 568px) {
+  .navbar-toggler {
+    position: absolute;
+    left: 480px;
+   }  
+   .headerNavButts {
+    top: 550px;
+  }
+
+}
+
+
+@media only screen and (min-width: 640px) {
+  .headerNavButts {
+    top: 300px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    left: 500px;
+   }  
+   .header {
+    background-image: url('../images/hero1.jpg');
+    min-height: 700px;
+  }   
+}
+
+
+@media only screen and (min-width: 667px) {
+  .navbar-toggler {
+    position: absolute;
+    left: 560px;
+   }  
+}
+
+
+@media only screen and (min-width: 768px) {
+  .headerNavButts {
+    top: 305px;
+}
+
+  .rowHome {
+    margin-right: 10px;
+    margin-left: 10px; 
+    margin-top: 10px;   
+  }
+  
+}
+
+
+@media only screen and (min-width: 736px) {
+  .navbar-toggler {
+    position: absolute;
+    left: 650px;
+   }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .headerNavButts {
+    top: 325px;
+  }  
+  .navbar-toggler {
+    position: absolute;
+    left: 680px;
+   }
+   .header {
+    min-height: 450px;
+  }  
+
+}
+
+@media only screen and (min-width: 768px) {
+  .headerNavButts {
+    top: 305px;
+  }  
+  .navbar-toggler {
+    position: absolute;
+    left: 750px;
+   }
+
+
+}
+
+@media (min-width: 974px) {
+  .headerNavButts {
+    top: 300px;
+  }
+  .header {
+    min-height: 400px;
+  }  
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  .header {
+    min-height: 500px;
+  }
+  .headerNavButts {
+    top: 350px;
+  }
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .headerNavButts {
+    top: 350px;
+  }
+  .header {
+    min-height: 500px;
+  }  
+
+}
+
+@media only screen and (min-width: 1180px) {
+  .headerNavButts {
+    top: 450px;
+  }
+  .header {
+    min-height: 600px;
+  }   
+
+}
+
+@media only screen and (min-width: 1366px) {
+
+  .header {
+    min-height: 600px;
+  } 
+  .headerNavButts {
+    top: 450px;
+  }
+
+}
+
+@media only screen and (min-width: 1430px) {
+  .header {
+    min-height: 700px;
+  }
+  .headerNavButts {
+    top: 500px;
+  }
+ 
+}
+
+@media only screen and (min-width: 1480px) {
+  .headerNavButts {
+    top: 550px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .headerNavButts {
+    top: 600px;
+  }
+  .header {
+    min-height: 750px;
+  }  
+ 
+}
+
+@media only screen and (min-width: 1900px) {
+  .headerNavButts {
+    top: 650px;
+  }
+  .header {
+    min-height: 800px;
+  }  
+ 
+}
+
+@media only screen and (min-width: 2225px) {
+  .headerNavButts {
+    top: 700px;
+  }
+  .header {
+    min-height: 850px;
+  }  
+ 
+}
+
+
+
